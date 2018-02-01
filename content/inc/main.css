@@ -1,0 +1,421 @@
+/* COLORS:
+ * dark: #323131
+ * highlight: #BF584E
+ */
+
+@font-face {
+	font-family: 'Mohave';
+	src: url('../res/Mohave.otf');
+	font-weight: 400;
+	font-style: normal;
+	font-variant: small-caps;
+}
+
+@font-face {
+	font-family: 'Slabo 27px';
+	src: url('../res/Slabo27px-Regular.ttf');
+	font-weight: 400;
+	font-style: normal;
+	font-variant: small-caps;
+}
+
+body {
+	background-color: #323131;
+	color: white;
+	font-family: 'Slabo 27px', serif;
+}
+
+a {
+	color: #BF584E;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+main {
+	width: 80%;
+	margin: auto;
+	padding-top: 30px;
+}
+
+header, h1, h2, h3 {
+	font-family: 'Mohave', sans-serif;
+}
+
+header {
+	font-size: 400%;
+	
+}
+
+header a {
+	color: white;
+}
+
+header a:hover{
+	text-decoration:none;
+}
+
+header div {
+	display: inline;
+	color: #BF584E;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: #323131;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #f2f2f2; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #d1d1d1; 
+}
+
+.hero {
+	background-repeat:no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 200px;
+	width: 100%;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.hero p{
+	font-family: 'Mohave', sans-serif;
+	height: 200px;
+	font-size: 190px;
+	background-color: #323131;
+	display: inline;
+	padding: 10px;
+	opacity: .9;
+}
+
+.content {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: block;
+}
+
+footer {
+	text-align: center;
+	border-top: solid white 1px;
+	padding-top: 10px;
+	width: 100%;
+	margin: auto;
+	margin-top: 30px;
+}
+
+.intro {
+	text-align: justify;
+}
+
+.intro p {
+	margin-bottom: 15px;
+}
+
+.red {
+	color: #BF584E;
+	display: inline;
+}
+
+.redbg {
+	background-color: #BF584E;
+}
+
+.smol {
+	font-size: 30px;
+}
+
+.button {
+	background-color: #424141;
+	color: white;
+	padding: 10px;
+	font-family: 'Mohave', sans-serif;
+	font-size: 140%;
+	transition: 0.3s;
+}
+
+.button:hover {
+	color: #BF584E;
+	background-color: black;
+	text-decoration: none;
+}
+
+.hub {
+	text-align: center;
+}
+
+.hubbutton {
+	display: inline-block;
+	font-family: 'Mohave', sans-serif;
+	margin: 10px;
+	transition: 0.3s;
+}
+
+.hubbutton a{
+	height: 235px;
+	width: 250px;
+	display: block;
+	color: white;
+	background-color: #424141;
+	font-size: 180px;
+	text-align: center;
+	transition: 0.3s;
+}
+
+.hubbutton:hover a {
+	background-color: #BF584E;
+	text-decoration: none;
+}
+
+.hubbutton p {
+	background-color: #BF584E;
+	text-align: center;
+	height: 32px;
+	width: 250px;
+	margin: 0px;
+	font-size: 26px;
+	transition: 0.3s;
+}
+
+.hubbutton:hover p {
+	background-color: #424141;
+}
+
+.jbutton {
+	display: inline-block;
+	font-family: 'Mohave', sans-serif;
+	margin: 10px;
+	transition: 0.3s;
+}
+
+.jbutton a{
+	height: 210px;
+	width: 225px;
+	display: block;
+	color: white;
+	background-color: #BF584E;
+	font-size: 150px;
+	text-align: center;
+	vertical-align: middle;
+	transition: 0.3s;
+}
+
+.jbutton:hover a {
+	background-color: #424141;
+	text-decoration: none;
+}
+
+.jbutton p {
+	background-color: #424141;
+	text-align: center;
+	height: 30px;
+	width: 225px;
+	margin: 0px;
+	font-size: 26px;
+	transition: 0.3s;
+}
+
+.jbutton:hover p {
+	background-color: #BF584E;
+}
+
+.jbutton:hover .hide {
+	display: none;
+}
+
+.show {
+	font-size: 50px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.jbutton:hover .show:after{
+	display: block;
+	content: "ARE YOU READY?";
+}
+
+.jbutton:hover a:after{
+	font-size: 50px;
+	vertical-align: middle;
+	line-height: 10px;
+	margin-top: 100px;
+}
+
+.statistic {
+	font-size: 190px;
+	color: white;
+	font-family: 'Mohave', sans-serif;
+	margin: 0px;
+}
+
+.percentagebox {
+	width: 300px;
+	background-color: #424141;
+}
+
+.percentagebox div {
+	background-color: #BF584E;
+	display: block;
+	height: 20px;
+	font-size: 17px;
+	padding-left: 10px;
+	margin-bottom: 1px;
+}
+
+.left {float:left; margin: 15px; margin-right: 60px;}
+.right {float:right; margin: 15px; margin-left: 60px;}
+
+.divider {
+	width: 100%;
+	height: 0px;
+    clear: both;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border-top: 1px solid white;
+}
+
+.facts {
+	line-height: 25px;
+}
+
+@keyframes bottomFadeOut {
+  0% {
+    position: absolute;
+    top: 30%;
+    opacity: 1;
+	font-size: 400%;
+  }
+
+  50% {
+    position: absolute;
+    top: 30%;
+	font-size: 400%;
+  }
+
+  100% {
+    top: 5%;
+	font-size: 250%;
+  }
+  
+}
+
+.title {
+	position: absolute;
+	top: 5%;
+	opacity: 1;
+	font-size: 150%;
+}
+
+@media screen and (min-width: 1000px) {
+.title {
+  position: absolute;
+  top: 5%;
+  opacity: 1;
+  animation-name: bottomFadeOut;
+  animation-delay: 0s;
+  animation-duration: 5s;
+  font-size: 250%;
+}
+}
+
+@keyframes fadein {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@keyframes buttonfade {
+    0% {
+        opacity:0;
+    }
+	66%{
+		opacity:0;
+	}
+    100% {
+        opacity:1;
+    }
+}
+.fadeintro p {
+	animation-name: fadein;
+	animation-delay: 0s;
+	animation-duration: 2s;
+}
+
+.fadeintro a {
+	animation-name: buttonfade;
+	animation-delay: 0s;
+	animation-duration: 5s;
+}
+
+.fadeintro h2 {
+	animation-name: fadein;
+	animation-delay: 0s;
+	animation-duration: 2s;
+}
+
+.fadeintro .p1 {
+	animation-name: fadein;
+	animation-delay: 2s;
+	animation-duration: 2s;
+}
+
+.fadeintro .p1 {
+	animation-name: fadein;
+	animation-delay: 4s;
+	animation-duration: 2s;
+}
+
+@keyframes fdsseq { 
+	100% { opacity: 1; }
+}
+
+.fadeintro2 p {
+	opacity:0;
+	font-size: 110%;
+	animation: fdsseq .5s forwards;
+}
+.fadeintro2 p:nth-child(1) {
+	animation-delay: 0s;
+}
+.fadeintro2 p:nth-child(2) {
+	animation-delay: 5s;
+}
+.fadeintro2 p:nth-child(3) {
+	animation-delay: 10s;
+}
+.fadeintro2 p:nth-child(4) {
+	animation-delay: 13s;
+}
+.fadeintro2 p:nth-child(5) {
+	animation-delay: 15s;
+}
+.fadeintro2 p:nth-child(6) {
+	animation-delay: 17s;
+}
+.fadeintro2 p:nth-child(7) {
+	animation-delay: 19s;
+}
+.fadebutton {
+	opacity: 0;
+	animation: fdsseq .5s forwards;
+	animation-delay: 23s;
+}
